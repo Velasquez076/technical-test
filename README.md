@@ -1,10 +1,34 @@
-# technical-test
-Prueba técnica
+# Technical-Test-Exam
+Prueba técnica FonYou
 
-Modelo ER
 
-![ModeloER](https://github.com/Velasquez076/technical-test/assets/76604880/e6d87832-e952-4826-9a83-ccfc960259d1)
+Componente que gestiona la creación de examenes, estudiantes y calificaciones.
 
-Coverage
+# Descripción de funcionamiento.
 
-![Coverage](https://github.com/Velasquez076/technical-test/assets/76604880/f4a39d19-7498-4091-955a-924e77918b01)
+![Document](./resource/attachment/Documento_technical_test.pdf)
+
+![Scripts Database](./resource/sql/DB_EXAMS.sql)
+
+![PostMan_Collection](./resource/postman/TECHNICAL_TEST_EXAM.postman_collection.json)
+
+# Cobertura Sonarqube.
+![Coverage_ Sonarqube](./resource/diagram/Coverage.png)
+
+# Modelo Entidad Relación.
+![Model ER](./resource/diagram/ModeloER.png)
+
+
+# Tecnologías empleadas.
+
+-------------------------------------
+>- Java 11 + Spring boot
+>- Lombok
+>- Maven
+>- Git
+>- Junit
+>- Mockito
+>- Spring Data
+>- JPA
+>- Jacoco
+-------------------------------------

@@ -1,0 +1,167 @@
+{
+	"info": {
+		"_postman_id": "901952c9-f932-4b9b-b67a-8f751b844ba4",
+		"name": "TECHNICAL_TEST_EXAM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17897649"
+	},
+	"item": [
+		{
+			"name": "EXAMS",
+			"item": [
+				{
+					"name": "CREATE_EXAM",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"type\": \"Geografía\",\n    \"questions\": [\n        {\n            \"questionExam\": \"¿Capital de Inglaterra?\",\n            \"firstOption\": \"Londres\",\n            \"secondOption\": \"Madrid\",\n            \"thirdOption\": \"Bogotá\",\n            \"fourthOption\": \"Lima\",\n            \"correctAnswer\": \"Londres\"\n        },\n        {\n            \"questionExam\": \"¿Color de la bandera de España\",\n            \"firstOption\": \"Blanco-Negro\",\n            \"secondOption\": \"Azul-Rojo-Amarillo\",\n            \"thirdOption\": \"Gris\",\n            \"fourthOption\": \"Rojo-Amarillo\",\n            \"correctAnswer\": \"Rojo-Amarillo\"\n        },\n        {\n            \"questionExam\": \"¿Cual es el pais mas grande del mundo?\",\n            \"firstOption\": \"Colombia\",\n            \"secondOption\": \"Guatemala\",\n            \"thirdOption\": \"Rusia\",\n            \"fourthOption\": \"Alemania\",\n            \"correctAnswer\": \"Rusia\"\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{HOST}}/exam/create",
+							"host": [
+								"{{HOST}}"
+							],
+							"path": [
+								"exam",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CREATE_ANSWERS",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstAnswer\": \"Londres\",\n    \"secondAnswer\": \"Azul-Rojo-Amarillo\",\n    \"thirdAnswer\": \"Rusia\",\n    \"idExam\": \"1\",\n    \"idStudent\": \"1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{HOST}}/exam/answer",
+							"host": [
+								"{{HOST}}"
+							],
+							"path": [
+								"exam",
+								"answer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ASSIGN_CREATE",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{HOST}}/exam/assign?dateAssign=2023-10-24&idExam=1",
+							"host": [
+								"{{HOST}}"
+							],
+							"path": [
+								"exam",
+								"assign"
+							],
+							"query": [
+								{
+									"key": "dateAssign",
+									"value": "2023-10-24"
+								},
+								{
+									"key": "idExam",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "QUALIFICATIONS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{HOST}}/exam/qualifications/1/1",
+							"host": [
+								"{{HOST}}"
+							],
+							"path": [
+								"exam",
+								"qualifications",
+								"1",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "STUDENTS",
+			"item": [
+				{
+					"name": "CREATE_STUDENT",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Julián David Velasquez\",\n    \"age\": \"29\",\n    \"city\": \"Tokyo\",\n    \"timeZone\": \"Asia/Tokyo\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{HOST}}/student/create",
+							"host": [
+								"{{HOST}}"
+							],
+							"path": [
+								"student",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ALL_STUDENTS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{HOST}}/student/all",
+							"host": [
+								"{{HOST}}"
+							],
+							"path": [
+								"student",
+								"all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
