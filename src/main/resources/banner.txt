@@ -1,0 +1,23 @@
+
+
+                FFFFFFFFFFFFFFFFFFFFFF                            YYYYYYY       YYYYYYY                                
+                F::::::::::::::::::::F                            Y:::::Y       Y:::::Y                                
+                F::::::::::::::::::::F                            Y:::::Y       Y:::::Y                                
+                FF::::::FFFFFFFFF::::F                            Y::::::Y     Y::::::Y                                
+                  F:::::F       FFFFFFooooooooooo   nnnn  nnnnnnnnYYY:::::Y   Y:::::YYYooooooooooo   uuuuuu    uuuuuu  
+ ::::::  ::::::   F:::::F           oo:::::::::::oo n:::nn::::::::nn Y:::::Y Y:::::Y oo:::::::::::oo u::::u    u::::u  
+ ::::::  ::::::   F::::::FFFFFFFFFFo:::::::::::::::on::::::::::::::nn Y:::::Y:::::Y o:::::::::::::::ou::::u    u::::u  
+ ::::::  ::::::   F:::::::::::::::Fo:::::ooooo:::::onn:::::::::::::::n Y:::::::::Y  o:::::ooooo:::::ou::::u    u::::u  
+                  F:::::::::::::::Fo::::o     o::::o  n:::::nnnn:::::n  Y:::::::Y   o::::o     o::::ou::::u    u::::u  
+                  F::::::FFFFFFFFFFo::::o     o::::o  n::::n    n::::n   Y:::::Y    o::::o     o::::ou::::u    u::::u  
+                  F:::::F          o::::o     o::::o  n::::n    n::::n   Y:::::Y    o::::o     o::::ou::::u    u::::u  
+ ::::::  ::::::   F:::::F          o::::o     o::::o  n::::n    n::::n   Y:::::Y    o::::o     o::::ou:::::uuuu:::::u  
+ ::::::  :::::: FF:::::::FF        o:::::ooooo:::::o  n::::n    n::::n   Y:::::Y    o:::::ooooo:::::ou:::::::::::::::uu
+ ::::::  :::::: F::::::::FF        o:::::::::::::::o  n::::n    n::::nYYYY:::::YYYY o:::::::::::::::o u:::::::::::::::u
+                F::::::::FF         oo:::::::::::oo   n::::n    n::::nY:::::::::::Y  oo:::::::::::oo   uu::::::::uu:::u
+                FFFFFFFFFFF           ooooooooooo     nnnnnn    nnnnnnYYYYYYYYYYYYY    ooooooooooo       uuuuuuuu  uuuu
+________________________________________________________________________________________________________________________
+            
+${application.title} ${application.version}
+Powered by Spring Boot ${spring-boot.version}                
+                

@@ -1,0 +1,9 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: technical_test_exams
+  datasource: 
+    url: jdbc:mysql://172.17.0.2:3306/db_exams
+    username: root
+    password: 12345
