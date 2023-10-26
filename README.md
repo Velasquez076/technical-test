@@ -1,10 +1,10 @@
-# technical-test
+# Technical-Test-Exam
 Prueba técnica FonYou
 
 
 Componente que gestiona la creación de examenes, estudiantes y calificaciones.
 
-Descripción de funcionamiento.
+# Descripción de funcionamiento.
 
 ![Document](./resource/attachment/Documento_technical_test.pdf)
 
@@ -12,17 +12,16 @@ Descripción de funcionamiento.
 
 ![PostMan_Collection](./resource/postman/TECHNICAL_TEST_EXAM.postman_collection.json)
 
-Cobertura Sonarqube.
+# Cobertura Sonarqube.
 ![Coverage_ Sonarqube](./resource/diagram/Coverage.png)
 
-Modelo Entidad Relación.
+# Modelo Entidad Relación.
 ![Model ER](./resource/diagram/ModeloER.png)
 
 
-Tecnologías empleadas.
+# Tecnologías empleadas.
 
 -------------------------------------
-
 >- Java 11 + Spring boot
 >- Lombok
 >- Maven
@@ -32,5 +31,4 @@ Tecnologías empleadas.
 >- Spring Data
 >- JPA
 >- Jacoco
-
 -------------------------------------
